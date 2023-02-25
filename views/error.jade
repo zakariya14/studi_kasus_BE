@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  h2= message
+  h3= error.status
+  pre #{error.stack}
+
+//- block content
+//-   h1= message
+//-   h2= error.status
+//-   pre #{error.stack}
