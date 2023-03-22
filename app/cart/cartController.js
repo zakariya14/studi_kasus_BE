@@ -1,5 +1,5 @@
 const productModel = require("../product/productModel");
-const cartItem = require("../cart-item/cartItemModel");
+const cartItem = require("../cartItem/cartItemModel");
 
 const update = async (req, res, next) => {
   try {
